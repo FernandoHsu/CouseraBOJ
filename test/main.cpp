@@ -7,10 +7,7 @@
 //
 
 #include <iostream>
-void Goodbye(void){
-    std::cout << "Goodbye!\n";
-}
-
+void Goodbye(void);
 
 int main(int argc, const char * argv[]) {
     // insert code here...
