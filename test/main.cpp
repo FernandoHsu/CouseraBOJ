@@ -7,10 +7,15 @@
 //
 
 #include <iostream>
+void Goodbye(void){
+    std::cout << "Goodbye!\n";
+}
+
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     std::cout << "Hello, World!\n";
     std::cout << "My first git project!\n";
+    Goodbye();
     return 0;
 }
